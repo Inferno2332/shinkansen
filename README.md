@@ -6,6 +6,6 @@ The data had some missing values, which were imputed appropriately, and the colu
 
 Different classification models such as Logistic Regression, Support Vector Machines, k-Nearest Neighbors, Decision Trees, Random Forests, Naive Bayes, Gradient Boosting, and XGBoost were used to train the model. After hyperparameter tuning with cross-validation, the XGBoost model performed the best.
 
-In the end, I decided to combine the top 3 models (XGBoost, Gradient Boosting, Random Forest) and take the most common prediction. The reason for this is that these three models gave similar cross-validation accuracy scores, and all the other models had much lower accuracies.
+In the end, I decided to combine the top 3 models (XGBoost, Gradient Boosting, Random Forest) and take the most common prediction. The reason for this is that these three models gave similar cross-validation accuracy scores, and would theoretically cancel each others' errors.
 
 I am 2nd place on the leaderboard with an accuracy of around 0.956.
