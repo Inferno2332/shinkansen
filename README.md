@@ -8,4 +8,4 @@ Different classification models such as Logistic Regression, Support Vector Mach
 
 In the end, I decided to combine the top 3 models (XGBoost, Gradient Boosting, Random Forest) and take the most common prediction. The reason for this is that these three models gave similar cross-validation accuracy scores, and would theoretically cancel each others' errors.
 
-I am 2nd place on the leaderboard with an accuracy of around 0.956.
+I came 2nd in this hackathon with an accuracy of around 0.956.
